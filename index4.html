@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADDNEW</title>
+    <style>
+    .form-Container{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin-left: 35%;
+            margin-top: 1rem;
+            width: 30rem;
+            padding: 20px;
+            box-shadow: 2px 2px 4px 4px green;
+        }
+    #form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    button{
+            width: auto;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-Container">
+        <h1>Submit Details </h1>
+        <form action="" id="form">
+            <label for="name" >Name</label>
+            <input type="text" name ="name">
+            <label for="Email" >Email</label>
+            <input type="email" name = "Email">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name = "phone">
+            <button id="submit">Submit</button>
+        </form>
+    <script  src="localStorage.js"></script>
+</body>
+</html>

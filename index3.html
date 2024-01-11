@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+            margin-left: 35%;
+            margin-top: 1rem;
+        }
+        td,th{
+            padding:10px;
+            border-collapse: collapse;
+            width: auto;
+        }
+        h2{
+            margin-left: 35%;
+            margin-top: 1rem;
+        }
+        #add{
+            display:flex;
+            justify-content: end;
+        }
+    </style>
+</head>
+<body>
+    <div id="add">
+        <button onclick="addnew()">ADD DATA</button>
+    </div>
+</div >
+<div id="display">
+    <h2>Employee Details</h2>
+    <table id="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Remove
+            </th>
+        </tr>
+        </table>
+    </div>  
+    <script src="Display.js"></script>
+    <script>
+        function addnew(){
+           window.location.href="index4.html";
+        }
+    </script>
+</body>
+</html>
